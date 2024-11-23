@@ -1,0 +1,75 @@
+:root {
+	--azul-oscuro: #0c2552;
+	--gris-claro: #edeef0;
+
+	--color-oro: #FFD700;
+	--color-plata: #C0C0C0;
+	--color-bronce: #CD7F32;
+}
+
+nav,
+#sidebar {
+	background-color: var(--azul-oscuro);
+}
+
+.nav-breadcrumb {
+	background-color: transparent !important;
+}
+
+.custom-box {
+	background-color: var(--gris-claro);
+	padding: 1.5em;
+	margin-bottom: 1.5em;
+	border-radius: 1.0em;
+	box-shadow: 0px 0px 20px var(--azul-oscuro);
+}
+
+.card-herramientas {
+	box-shadow: 0px 0px 20px var(--azul-oscuro);	
+}
+
+.trofeo-oro {
+	color: var(--color-oro);
+}
+
+.medalla-plata {
+	color: var(--color-plata);
+}
+
+.medalla-bronce {
+	color: var(--color-bronce);
+}
+
+.nombre-producto-inventario {
+	cursor: pointer; /* Cambia el cursor a una mano */
+}
+
+.caja-consulta-precio {
+	background-color: var(--gris-claro);
+	padding: 1em;
+	margin-bottom: 1em;
+	border-radius: 1em;
+	box-shadow: 0px 0px 10px var(--azul-oscuro);
+}
+
+.img-min-100 {
+	min-width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+	.custom-box {
+		box-shadow: 0px 20px 20px var(--azul-oscuro);
+	}
+
+	.card-herramientas {
+		box-shadow: 0px 20px 20px var(--azul-oscuro);	
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.btn-opciones-tabla {
+		margin: 0 0 0.5em 0;
+		width: 100%;
+		padding: 0.5em;
+	}
+}
